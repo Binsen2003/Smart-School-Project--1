@@ -1,0 +1,161 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Prayers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Morning & Evening Prayers</h1>
+    </header>
+    <section class="prayer-container">
+        <div class="prayer-card">
+            <h2>Morning Prayer</h2>
+            <video controls>
+                <source src="morning_prayer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p id="morning-text" class="auto-type"></p>
+        </div>
+        <div class="prayer-card">
+            <h2>Evening Prayer</h2>
+            <video controls>
+                <source src="evening_prayer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p id="evening-text" class="auto-type"></p>
+        </div>
+    </section>
+    <script>
+        const morningPrayerText = "Oh God, give me strength, wisdom, and courage to follow the right path...";
+        const eveningPrayerText = "Thank you for today, for all the blessings and lessons...";
+        
+        function typeEffect(elementId, text, speed) {
+            let i = 0;
+            function type() {
+                if (i < text.length) {
+                    document.getElementById(elementId).innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(type, speed);
+                }
+            }
+            type();
+        }
+        
+        window.onload = function() {
+            typeEffect("morning-text", morningPrayerText, 100);
+            typeEffect("evening-text", eveningPrayerText, 100);
+        };
+    </script>
+</body>
+<style>
+
+</style>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Prayers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Indian School Prayers</h1>
+    </header>
+    
+    <section class="prayer-section">
+        <div class="prayer">
+            <h2>Morning Prayer</h2>
+            <video controls>
+                <source src="morning_prayer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="auto-type" id="morning-text"></p>
+        </div>
+        
+        <div class="prayer">
+            <h2>Evening Prayer</h2>
+            <video controls>
+                <source src="evening_prayer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="auto-type" id="evening-text"></p>
+        </div>
+    </section>
+
+    <script >document.addEventListener("DOMContentLoaded", function () {
+        const prayers = {
+            "morning-text": "ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि। धियो यो नः प्रचोदयात्॥",
+            "evening-text": "त्वमेव माता च पिता त्वमेव, त्वमेव बन्धुश्च सखा त्वमेव। त्वमेव विद्या द्रविणं त्वमेव, त्वमेव सर्वं मम देव देव॥"
+        };
+    
+        function typeEffect(elementId, text, speed) {
+            let i = 0;
+            function type() {
+                if (i < text.length) {
+                    document.getElementById(elementId).innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(type, speed);
+                }
+            }
+            type();
+        }
+    
+        typeEffect("morning-text", prayers["morning-text"], 100);
+        setTimeout(() => typeEffect("evening-text", prayers["evening-text"], 100), 4000);
+    });
+    </script>
+</body>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #ff9800;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.prayer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.prayer {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.auto-type {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+    min-height: 50px;
+}
+
+</style>
+</html>
