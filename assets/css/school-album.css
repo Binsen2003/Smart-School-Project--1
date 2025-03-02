@@ -342,7 +342,6 @@ ul li:hover ul.dropdown{
 .image{
     background-position: left;
     background-size: cover;
-    overflow-x:scroll;
     border-radius: 8px;
     display: flex;
     justify-content: center;
