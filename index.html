@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St.xavier's School</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="assets/script.js" defer></script>
+    <script src="assets/main.js" defer></script>
+    <!-------------------- google font icon links -------------------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward" />
+
+    <!-- ------------------ swipper link -------------------------- -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head> 
+<body>
+    <header>
+      <div id="logo-title" class="title">
+        <div class="logo-title-section">
+          <img src="assets/images/school-logo.png" height="60px" >
+          <span>ST.XAVIER'S SCHOOL<span id="span-1">,KARUMUNDA</span>
+          </span>
+        </div>
+        <label for="sidebar-active" id="open-sidebar"><i class='bx bx-menu'></i></label>
+      </div>
+
+        <nav>
+          <input type="checkbox"  id="sidebar-active">
+ 
+           <label for="sidebar-active"  id="overly"></label>
+
+          <ul class="nav-links" id="navLinks">
+            <label for="sidebar-active" id="close-sidebar"><i class='bx bx-x'></i></label>
+
+              <li><a href="index.html">Home</a></li>
+
+              <li class="nav-list" id="about"><a href="#about">About <span><i class='bx bx-caret-down'></i></span></a>
+                    <ul class="dropdown" >
+                        <li><a href="founder.html">Founder</a></li>
+                        <li><a href="patron.html">Patron Saint</a></li>
+                        <li><a href="principal.html">Principal</a></li>
+                        <li><a href="vision.html">Vision & Mission</a></li>
+                        <!-- <li><a href="history.html">History</a></li>
+                        <li><a href="achievements.html">Achievements</a></li> -->
+                    </ul>
+              </li>
+
+              <li class="nav-list" id="academics"><a href="#academics">Academics <span><i class='bx bx-caret-down'></i></span></a>
+                  <ul class="dropdown">
+                      <!-- <li><a href="curriculum.html">Curriculum</a></li> -->
+                      <li><a href="departments.html">Departments</a></li>
+                      <!-- <li><a href="timetables.html">Timetables</a></li> -->
+                      <li><a href="academic-calender.html"> Academic Calender</a></li>
+                  </ul>
+              </li>
+
+              <li class="nav-list" id="admissions"><a href="#admissions" class="accademic" >Admissions <span><i class='bx bx-caret-down'></i></span></a>
+                  <ul class="dropdown">  
+                      <li><a href="how-to-apply.html">How to Apply</a></li>
+                      <li><a href="fee-structure.html">Fee Structure</a></li>
+                      <li><a href="application-form.html">Application Form</a></li>
+                      <li><a href="entrance-schedule.html">Entrance Exam</a></li>
+                  </ul>
+              </li>
+
+              <li class="nav-list" id="std-life"><a href="#student Life">Student Life <span><i class='bx bx-caret-down'></i></span></a>
+                  <ul class="dropdown">
+                    <li><a href="prayers.html">Prayers</a></li>
+                    <li><a href="clubs.html">Clubs</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="extracurriculars.html">Extracurriculars</a></li>
+                  </ul>
+              </li>
+              <li class="nav-list"><a href="#contact">Contact</a>
+              </li>
+          </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero conteiner" style="background-image: url(assets/image/school-image.jpg); background-position: center;">
+            <div class="content">
+                <div class="logo">
+                    <img id="image" src="assets/images/school-logo.png" alt="school log">
+                </div>
+                <h1>ST.XAVIER'S SCHOOL, KORUMUNDA</h1>
+                <p>"For what profit has a man, if he gets all the world with the loss of his life? <br> or what will a man give in exchange for his life?"</p>
+                <div class="hero-buttons">
+                    <a href="how-to-apply.html" class="btn-primary">Apply Now</a>
+                    <a href="about.html" class="btn-secondary">Explore Our School</a>
+                    <a href="#contact" class="btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="#hero">
+      <button class="arrow">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </a>
+
+    <section class="about">
+        <h1>About Scholl</h1>
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Welcome to Our School</h2>
+                <p>
+                  ST. XAVIERS SCHOOL, KARUMUNDA was established in 1995 and it is managed by the Pvt. Unaided. It is located in Rural area. It is located in BALLIGUDA block of KANDHAMAL district of Orissa. The school consists of Grades from 1 to 10. The school is Co-educational and it doesn't have an attached pre-primary section. The school is N/A in nature and is not using school building as a shift-school. Odia is the medium of instructions in this school. This school is approachable by all weather road. In this school academic session starts in April....... 
+
+                    <!-- At St.Xavier's Scholl, we uphold the values of integrity, innovation, and inclusivity to shape well-rounded individuals who are ready to excel in an ever-evolving world. Our state-of-the-art facilities, dedicated faculty, and diverse extracurricular programs ensure that every student receives a balanced and enriching education.......
+
+                    With a legacy of producing leaders, innovators, and changemakers, we continue to inspire students to achieve their dreams and contribute meaningfully to society. -->
+                </p>
+                <div class="about-button">
+                    <a href="about-school.html" class="about-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="about-image">
+                <img  src="assets/image/school-image.jpg"></img>
+            </div>
+        </div>
+    </section>
+
+    <section class="reult">
+        <div class="result-container" style="background-image: url(assets/images/bento-bgi.jpg);">
+            <div class="header">
+                <div class="title">
+                  <h1>Our Student Achievements <span>| 100% rusult|</span></h1>
+                </div>
+              </div>
+              <div class="topper">
+                <div class="topper-info">
+                  <img src="assets/images/anoj.png" alt="Aditya Garg">
+                  <div class="details">
+                    <h3>Aditya Garg</h3>
+                    <p>St.Xavier's School, Karumunda</p>
+                    <span>99.32%</span>
+                  </div>
+                </div>
+                <div class="topper-info">
+                  <img src="assets/images/topper1.jpg" alt="Anisha Das">
+                  <div class="details">
+                    <h3>Anisha Das</h3>
+                    <p>St.Xavier's School, Karumunda</p>
+                    <span>99.4%</span>
+                  </div>
+                </div>
+                <div class="topper-info">
+                  <img src="assets/images/topper2.jpg" alt="Amresh Das">
+                  <div class="details">
+                    <h3>Amresh Das</h3>
+                    <p>St.Xavier's School, Karumunda</p>
+                    <span>99.2%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="students">
+                <div class="student">
+                    <img src="assets/images/mark4.jpg" alt="Ashish Kumar">
+                  <h4>Navdha Bansal</h4>
+                  <p>Vasant Valley School, Patiala</p>
+                  <span>98.4%</span>
+                </div>
+                <div class="student">
+                  <img src="assets/images/mark1.jpg" alt="Vandana Kumari">
+                  <h4>Vandana Kumari</h4>
+                  <p>St. Peter's Academy</p>
+                  <span>98%</span>
+                </div>
+                <div class="student">
+                  <img src="assets/images/mark1.jpg" alt="Vandana Kumari">
+                  <h4>Vandana Kumari</h4>
+                  <p>St. Peter's Academy</p>
+                  <span>98%</span>
+                </div>
+                <div class="student">
+                  <img src="assets/images/mark2.jpg" alt="Mrinalini Bishnoi">
+                  <h4>Mrinalini Bishnoi</h4>
+                  <p>Bihani Children's Academy</p>
+                  <span>97.8%</span>
+                </div>
+                <div class="student">
+                  <img src="assets/images/mark3.jpg" alt="Anoj Nayak">
+                  <h4>Anoj Nayak</h4>
+                  <p>St. Mary's School, Patiala</p>
+                  <span>97.8%</span>
+                </div>
+                <div class="student">
+                  <img src="assets/images/mark3.jpg" alt="Anoj Nayak">
+                  <h4>Anoj Nayak</h4>
+                  <p>St. Mary's School, Patiala</p>
+                  <span>97.8%</span>
+                </div>
+                <div class="student">
+                  <img src="assets/images/mark3.jpg" alt="Anoj Nayak">
+                  <h4>Anoj Nayak</h4>
+                  <p>St. Mary's School, Patiala</p>
+                  <span>97.8%</span>
+                </div>
+                <div class="student">
+                  <img src="assets/images/mark3.jpg" alt="Anoj Nayak">
+                  <h4>Anoj Nayak</h4>
+                  <p>St. Mary's School, Patiala</p>
+                  <span>97.8%</span>
+                </div>
+                <div class="student">
+                  <img src="assets/images/mark3.jpg" alt="Anoj Nayak">
+                  <h4>Anoj Nayak</h4>
+                  <p>St. Mary's School, Patiala</p>
+                  <span>97.8%</span>
+                </div>
+                
+              </div>
+        </div>
+    </section>
+
+    <section class="news-section">
+        <h2>Latest Announcements & News</h2>
+        <div class="news-content">
+            <div class="news-card">
+                <h3>📢 Admissions Open for 2025</h3>
+                <p>Enroll now for the upcoming academic session. Check out our admissions page for details.</p>
+                <a href="admissions.html">Read More</a>
+            </div>
+
+            <div class="news-card">
+                <h3>📆 Holiday Schedule Updated</h3>
+                <p>Check out the revised holiday calendar for this year, including term breaks and public holidays.</p>
+                <a href="holidays.html">Read More</a>
+            </div>
+
+            <div class="news-card">
+                <h3>📝 Exam Dates Announced</h3>
+                <p>The final exam schedule for all grades has been released. Ensure you are prepared!</p>
+                <a href="exams.html">Read More</a>
+            </div>
+
+            <!-- <div class="news-card">
+                <h3>📢 Results Announced! </h3>
+                <p>The results for the recent examination are now available. Click the button below to check your results.</p>
+                <a href="#" class="btn">Check Results</a>
+            </div>
+
+            <div class="news-card">
+                <h3>
+                    📅 Parent Meeting Announcement 🏫
+                </h3>
+                <p>We invite all parents to attend the upcoming parent-teacher meeting. Details below:</p>
+                <a href="exams.html">Read More</a>
+            </div>
+        </div>
+        <div class="view-more">
+            <a href="news.html">View More News</a>
+        </div> -->
+        <div class="view-more">
+          <a href="news-section.html">View more</a>
+        </div>
+        <div class="empyt-style"></div>
+    </section>
+
+    <section class="programs-section">
+        <div class="empyt-style"></div>
+        <h2>🌟 Featured Programs & Activities</h2>
+        <div class="program-conteiner">
+            <details>
+                <summary>
+                    <span id="football-spin">⚽</span>
+                    <h3>Sports Teams</h3>
+                </summary>
+                <div class="program-text">
+                    <p>Join our competitive teams in football, basketball, and more.</p>
+                    <p>Elevate your game by joining our competitive sports teams, including football, basketball, and more. Train with skilled coaches, compete in thrilling tournaments, and showcase your talent on the field or court. Experience teamwork, discipline, and the excitement of high-level competition. Whether you're a seasoned athlete or aspiring to improve, we welcome passionate players. Unleash your potential, build lifelong friendships, and make your mark in the world of sports!</p>
+                    <a href="sports.html">Read more</a>
+                </div>
+            </details>
+
+            <details>
+                <summary>
+                    <span>🎵</span>
+                    <h3>Music & Arts</h3>
+                </summary>
+                <div class="program-text">
+                    <p>Explore creativity through music, theater, and visual arts.</p>
+                    <p>Unleash your imagination and express yourself through music, theater, and visual arts. Whether you love performing on stage, creating stunning artworks, or composing soulful melodies, our programs provide the perfect platform to develop your talents. Engage in hands-on workshops, collaborate with fellow artists, and bring your creative visions to life. From dramatic performances to breathtaking exhibitions, every moment is an opportunity to shine. Join us and let your passion for the arts inspire the world!</p>
+                    <a href="curriculum.html">Read more</a>
+                </div>
+            </details>
+
+            <details>
+                <summary>
+                    <span>🎭</span>
+                    <h3>Student Clubs</h3>
+                </summary>
+                <div class="program-text">
+                    <p>Engage in leadership, tech, debate, and cultural clubs.</p>
+                    <p>Step into a world of growth and innovation by joining our leadership, tech, debate, and cultural clubs. Develop essential skills, from critical thinking to public speaking, while collaborating with like-minded peers. Lead initiatives, solve real-world challenges, and engage in thought-provoking discussions that shape your perspective. Explore the latest in technology, celebrate diverse cultures, and make a lasting impact within your community. Whether you're a future leader, a tech enthusiast, or a passionate debater, there's a place for you to thrive!</p>
+                    <a href="clubs.html">Read more</a>
+                </div>
+            </details>
+
+            <details>
+                <summary>
+                    <span id="earth-routet">🌍</span>
+                    <h3>Special Initiatives</h3>
+                </summary>
+                <div class="program-text">
+                    <p>Community service, innovation projects, and sustainability programs.</p>
+                    <p>Make a difference by participating in community service, innovation projects, and sustainability programs. Contribute to meaningful causes, create innovative solutions, and promote a greener future through hands-on initiatives. Work alongside passionate individuals to address social challenges, drive change, and leave a positive impact on society. Whether it's volunteering, developing breakthrough ideas, or advocating for environmental responsibility, your efforts can inspire real progress. Join us and be a force for good in the world!</p>
+                    <a href="extracurriculars.html">Read more</a>
+                </div>
+            </details>
+        </div>
+    </section>
+
+    <section class="testimonials">
+      <h2>🌟 Testimonials & Success Stories</h2>
+      <div class="container swiper">
+        <div class="card-wrapper">
+            <ul class="card-list swiper-wrapper">
+                <li class="card-item swiper-slide">
+                    <a href="#"  class="card-link">
+                        <img class="card-image" src="assets/images/success-dipu.jpg" alt="image-1">
+                        <p class="title">Dipu mallick</p>
+                        <h2 class="para"> "My school is a place of learning, growth, and endless opportunities. Supportive teachers, a positive environment, and modern learning methods make every day inspiring. It shapes my future with strong values, knowledge, and unforgettable memories.!"</h2>
+                        <h4>⭐⭐⭐⭐⭐</h4>
+                    </a>
+                </li>
+
+                <li class="card-item swiper-slide">
+                    <a href="#"  class="card-link">
+                        <img class="card-image" src="assets/images/anoj.png" alt="image-1">
+                        <p class="title">anoj nayak</p>
+                        <h2 class="para">"My school is my second home, where I learn, grow, and build lifelong friendships. With caring teachers, an engaging curriculum, and a nurturing atmosphere, every day is a new adventure. It prepares me for the future with confidence and wisdom!"
+                        <h4>⭐⭐⭐⭐⭐</h4> 
+                    </a>
+                </li>
+
+                <li class="card-item swiper-slide">
+                    <a href="#"  class="card-link">
+                        <img class="card-image" src="assets/images/success-Bijay.jpg" alt="image-1">
+                        <p class="title">Sarala</p>
+                        <h2 class="para">"My school is a place of learning, growth, and endless opportunities. Supportive teachers, a positive environment, and modern learning methods make every day inspiring. It shapes my future with strong values, knowledge, and unforgettable memories.!"
+                        <h4>⭐⭐⭐⭐⭐</h4> 
+                    </a>
+                </li>
+
+                <li class="card-item swiper-slide">
+                    <a href="#"  class="card-link">
+                        <img class="card-image" src="assets/images/success1.jpg" alt="image-1">
+                        <p class="title">Anushaya</p>
+                        <h2 class="para">"A place of knowledge, joy, and self-discovery—my school is where I find my true potential. Supportive mentors and innovative teaching methods make learning exciting. Proud to be part of a school that empowers me to chase my dreams!"
+                        <h4>⭐⭐⭐⭐⭐</h4>
+                    </a>
+                </li>
+
+                <li class="card-item swiper-slide">
+                    <a href="#"  class="card-link">
+                        <img class="card-image" src="assets/images/succuss-bin-1.jpg" alt="image-1">
+                        <p class="title">Binsen Digal</p>
+                        <h2 class="para">"Every day at my school is filled with curiosity and new opportunities. Encouraging teachers and a motivating environment push me to strive for excellence. This place doesnt just educate; it inspires and transforms me into a better person!"
+                        <h4>⭐⭐⭐⭐⭐</h4> 
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#"  class="card-link">
+                        <img class="card-image" src="assets/images/Jeeban.png" alt="image-1">
+                        <p class="title">Jeeban Adhikari</p>
+                        <h2 class="para">"Every day at my school is filled with curiosity and new opportunities. Encouraging teachers and a motivating environment push me to strive for excellence. This place doesnt just educate; it inspires and transforms me into a better person!"
+                        <h4>⭐⭐⭐⭐⭐</h4> 
+                    </a>
+                </li>
+            </ul>
+            <div class=" swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+    </div>
+  </section>
+
+    <section class="school-album" style="background-image: url(assets/images/bento-bgi.jpg);">
+      <h2>Memories</h2>
+      <div class="album-box">
+        <div class="image-container">
+          <div class="images-box">
+            <div  style=" grid-area: img-1; background-image: url(assets/image/techers-picnic.jpg);" class="image"></div>
+  
+            <div  style=" grid-area: img-2; background-image: url(assets/image/summer-group.jpg);" class="image"></div>
+  
+            <div  style=" grid-area: img-3; background-image: url(assets/images/memory-4.jpg);" class="image"></div>
+  
+            <div  style=" grid-area: img-4; background-image: url(assets/images/memory-7.jpg);" class="image"></div>
+  
+            <div id="image-blend"  style=" grid-area: img-5; background-image: url(assets/images/memory-1.jpg);" class="image">5</div>
+  
+            <div id="image-blend" style=" grid-area: img-6; background-image: url(assets/images/memory-2.jpg);"  class="image"></div>
+  
+            <div style=" grid-area: img-7; background-image: url(assets/images/memory-6.jpg);"  class="image"></div>
+  
+            <div id="image-blend" style=" grid-area: img-8; background-image: url(assets/images/memory-3].jpg);"  class="image"></div>
+  
+            <div style=" grid-area: img-9; background-image: url(assets/images/memory-5.jpg);"  class="image"></div>
+          </div>
+        </div>
+      </div>
+      <div class="view-more">
+        <a href="school-album.html">View more</a>
+      </div>
+    </section>
+
+    <section class="special">
+      <h2>What Makes Special</h2>
+      <div class="speical-content">
+        <div class="content">
+          <div class="content-items">
+            <img src="assets/images/certificate.png" height="40px" class="specitality-images">
+            <p>500 Years
+              Jesuit legacy of Education</p>
+          </div>
+
+          <div class="content-items">
+            <img src="assets/images/cross.png" height="40px" class="specitality-images">
+            <p>AMDG <br>
+              ( For the Greater Glory of God)</p>
+          </div>
+
+          <div class="content-items">
+            <img src="assets/images/people.png" height="40px" class="specitality-images">
+            <p>Cura personalis <br>
+              (Care of whole person)</p>
+          </div>
+
+          <div class="content-items">
+            <img src="assets/images/learning.png" height="40px" class="specitality-images">
+            <p>Forming and Educating agents of Change</p>
+          </div>
+        </div>
+
+        <div class="content-2">
+          <div class="content-box">
+            <div class="box-item">
+              <img src="assets/images/student.png" height="40px">
+              <h3>20+</h3>
+              <p>Educators</p>
+            </div>
+            <div class="box-item">
+              <img src="assets/images/team.png" height="40px">
+              <h3>500+</h3>
+              <p>Learners</p>
+            </div>
+            <div class="box-item">
+              <img src="assets/images/church.png" height="40px">
+              <h3>500+</h3>
+              <p>of lagacy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">    
+      <h2>Link with us</h2>
+      <div class="address-link">
+
+        <div class="online-contact">
+          <div class="contact-link">
+            <a href="#main"><span><svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M640-520v-120H520v-80h120v-120h80v120h120v80H720v120h-80Zm158 400q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg> </span>+91 1234567890-321654987</a>
+          </div>
+          <div class="contact-link">
+            <a href="#phone"><span><svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480v58q0 59-40.5 100.5T740-280q-35 0-66-15t-52-43q-29 29-65.5 43.5T480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480v58q0 26 17 44t43 18q26 0 43-18t17-44v-58q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93h200v80H480Zm0-280q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Z"/></svg></span>stxavires@gmail.com</a>
+          </div>
+          <div class="contact-link">
+            <a href="https://g.co/kgs/ZwPcai4"><span><svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M480-301q99-80 149.5-154T680-594q0-90-56-148t-144-58q-88 0-144 58t-56 148q0 65 50.5 139T480-301Zm0 101Q339-304 269.5-402T200-594q0-125 78-205.5T480-880q124 0 202 80.5T760-594q0 94-69.5 192T480-200Zm0-320q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520ZM200-80v-80h560v80H200Zm280-520Z"/></svg></span>Karumunda, Rutungia</a>
+          </div>
+        </div>
+
+        <div class="useful-link">
+          <div class="link">
+            <a href="fee-structure.html"><span><svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></span>Fee structure</a>
+          </div>
+          <div class="link">
+            <a href="admission-policy.html"><span><svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></span>Admission policy</a>
+          </div>
+          <div class="link">
+            <a href="activity.html"><span><svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></span>Activities</a>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">
+        <p>This website &reg for St.Xavier's school</p>
+      </div>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
