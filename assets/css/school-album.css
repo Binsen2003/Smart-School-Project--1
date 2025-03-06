@@ -552,7 +552,7 @@ ul li:hover ul.dropdown{
 
     .images-box {
         grid-template-columns:300px;
-        grid-template-rows: repeat(49, 300px);
+        grid-template-rows: repeat(49, 330px);
         grid-template-areas:
             "img-1" 
             "img-2"
